@@ -1,5 +1,5 @@
 {
-    "name": "other-solution/klix-app--merchant-api-php",
+    "name": "other-solution/klix-app-merchant-api-php",
     "description": "OtherSolution: Klix merchant API PHP SDK",
     "type": "library",
     "keywords": [
@@ -23,7 +23,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/other-solution/klix-app--merchant-api-php/issues"
+        "issues": "https://github.com/other-solution/klix-app-merchant-api-php/issues"
     },
     "require": {
         "php": ">=8.0.0",
@@ -47,8 +47,8 @@
             "dev-master": "1.x-dev"
         },
         "thanks": {
-            "name": "other-solution/klix-app--merchant-api-php",
-            "url": "https://github.com/other-solution/klix-app--merchant-api-php"
+            "name": "other-solution/klix-app-merchant-api-php",
+            "url": "https://github.com/other-solution/klix-app-merchant-api-php"
         }
     }
 }
