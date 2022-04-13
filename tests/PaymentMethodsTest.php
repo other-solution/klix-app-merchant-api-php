@@ -11,7 +11,7 @@ class PaymentMethodsTest extends AbstractTest
 {
     public function testGetPaymentMethods(): void
     {
-        $api = new KlixApi(getenv('BRAND_ID'), getenv('SECRET_KEY'));
+        $api = new KlixApi(getenv('BRAND_ID'), getenv('SECRET_KEY'), config: ['verify_peer' => false, 'verify_host' => false]);
 
         $this->assertInstanceOf(PaymentMethodCollection::class, $methods = $api->getPaymentMethods());
         $this->assertInstanceOf(PaymentMethodCollection::class, $api->getPaymentMethods());

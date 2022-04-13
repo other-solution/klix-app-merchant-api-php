@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1649888828">
-  <project timestamp="1649888828">
+<coverage generated="1649890249">
+  <project timestamp="1649890249">
     <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Factory/PaymentMethodCollectionArrayFactory.php">
       <class name="OtherSolution\Klix\Factory\PaymentMethodCollectionArrayFactory" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
