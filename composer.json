@@ -2,6 +2,8 @@
     "name": "other-solution/klix-app-merchant-api-php",
     "description": "OtherSolution: Klix merchant API PHP SDK",
     "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "keywords": [
         "klix",
         "api",
@@ -15,11 +17,13 @@
     "authors": [
         {
             "name": "phpsed",
-            "role": "Owner"
+            "role": "Owner",
+            "homepage": "https://github.com/phpsed"
         },
         {
             "name": "sigulda",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://github.com/sigulda"
         }
     ],
     "support": {
@@ -27,7 +31,14 @@
     },
     "require": {
         "php": ">=8.0.0",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
         "jetbrains/phpstorm-attributes": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9.5.0",
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {
