@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649888828">
+  <project timestamp="1649888828">
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Factory/PaymentMethodCollectionArrayFactory.php">
+      <class name="OtherSolution\Klix\Factory\PaymentMethodCollectionArrayFactory" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
+      </class>
+      <line num="12" type="method" name="create" visibility="public" complexity="3" crap="3" count="1"/>
+      <line num="14" type="stmt" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="33" ncloc="33" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
+    </file>
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Factory/PaymentMethodGroupArrayFactory.php">
+      <class name="OtherSolution\Klix\Factory\PaymentMethodGroupArrayFactory" namespace="global">
+        <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/KlixApi.php">
+      <class name="OtherSolution\Klix\KlixApi" namespace="global">
+        <metrics complexity="8" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="22" coveredelements="22"/>
+      </class>
+      <line num="25" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="27" type="stmt" count="2"/>
+      <line num="28" type="stmt" count="2"/>
+      <line num="31" type="method" name="getBrandId" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="33" type="stmt" count="2"/>
+      <line num="36" type="method" name="getApiKey" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="38" type="stmt" count="2"/>
+      <line num="41" type="method" name="getPaymentMethods" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="43" type="stmt" count="2"/>
+      <line num="44" type="stmt" count="2"/>
+      <line num="46" type="stmt" count="2"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="55" type="stmt" count="1"/>
+      <line num="58" type="method" name="request" visibility="protected" complexity="3" crap="3" count="2"/>
+      <line num="60" type="stmt" count="2"/>
+      <line num="61" type="stmt" count="2"/>
+      <line num="62" type="stmt" count="2"/>
+      <line num="66" type="stmt" count="2"/>
+      <line num="70" type="stmt" count="1"/>
+      <line num="71" type="stmt" count="1"/>
+      <line num="72" type="stmt" count="1"/>
+      <metrics loc="76" ncloc="76" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="22" coveredelements="22"/>
+    </file>
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Model/PaymentMethod.php">
+      <class name="OtherSolution\Klix\Model\PaymentMethod" namespace="global">
+        <metrics complexity="7" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="17" coveredelements="15"/>
+      </class>
+      <line num="16" type="method" name="getName" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="18" type="stmt" count="1"/>
+      <line num="21" type="method" name="setName" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="method" name="getLogo" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="33" type="method" name="setLogo" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="40" type="method" name="getKey" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="45" type="method" name="setKey" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="52" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <metrics loc="57" ncloc="57" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="17" coveredelements="15"/>
+    </file>
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Model/PaymentMethodCollection.php">
+      <class name="OtherSolution\Klix\Model\PaymentMethodCollection" namespace="global">
+        <metrics complexity="8" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
+      </class>
+      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="15" type="stmt" count="1"/>
+      <line num="18" type="method" name="getPaymentMethods" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="23" type="method" name="setPaymentMethods" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="30" type="method" name="addPaymentMethod" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="39" type="method" name="removePaymentMethod" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="48" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <metrics loc="53" ncloc="53" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
+    </file>
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Model/PaymentMethodGroup.php">
+      <class name="OtherSolution\Klix\Model\PaymentMethodGroup" namespace="global">
+        <metrics complexity="7" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="17" coveredelements="0"/>
+      </class>
+      <line num="13" type="method" name="getName" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="18" type="method" name="setName" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="25" type="method" name="getLogo" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="30" type="method" name="setLogo" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="37" type="method" name="getLabel" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="42" type="method" name="setLabel" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="49" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="51" type="stmt" count="0"/>
+      <metrics loc="54" ncloc="54" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="17" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/vendor/other-solution/klix-app-merchant-api-php/src/Model/PaymentMethodGroupCollection.php">
+      <class name="OtherSolution\Klix\Model\PaymentMethodGroupCollection" namespace="global">
+        <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="14" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="7" loc="300" ncloc="299" classes="5" methods="26" coveredmethods="18" conditionals="0" coveredconditionals="0" statements="59" coveredstatements="48" elements="85" coveredelements="66"/>
+  </project>
+</coverage>

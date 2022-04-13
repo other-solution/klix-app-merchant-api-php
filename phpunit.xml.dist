@@ -3,6 +3,8 @@
     <php>
         <ini name="error_reporting" value="-1"/>
         <ini name="memory_limit" value="-1"/>
+        <env name="BRAND_ID" value="702314b8-dd86-41fa-9a22-510fdd71fa92" />
+        <env name="SECRET_KEY" value="IB-bzOdJLgJjbsaA34Qpxkg1TTIrW-iDuni6JuzbP--KgtsREHzvIvLLTH8E5T0CZcSbYM3qNmfeogpWW_RZaA==" />
     </php>
     <testsuites>
         <testsuite name="OtherSolution: Klix merchant API PHP SDK Test Suite">
@@ -18,6 +20,7 @@
         </exclude>
         <report>
             <clover outputFile="coverage.xml"/>
+            <html outputDirectory=".github/coverage"/>
         </report>
     </coverage>
 </phpunit>

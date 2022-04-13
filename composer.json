@@ -31,27 +31,40 @@
     },
     "require": {
         "php": ">=8.0.0",
-        "ext-json": "*",
         "ext-curl": "*",
+        "ext-json": "*",
         "ext-openssl": "*",
-        "jetbrains/phpstorm-attributes": "*"
+        "doctrine/collections": "*",
+        "jetbrains/phpstorm-attributes": "*",
+        "symfony/http-client": "^5.4|^6.0",
+        "symfony/http-client-contracts": "*",
+        "symfony/http-foundation": "^5.4|^6.0",
+        "symfony/http-kernel": "^5.4|^6.0",
     },
     "require-dev": {
+        "doctrine/annotations": "^1.13",
+        "friendsofphp/php-cs-fixer": ">=v3.8.0",
         "phpunit/phpunit": ">=9.5.0",
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "symfony/cache": "^5.4",
+        "symfony/serializer": "^5.4|^6.0",
+        "symfony/validator": "^5.4|^6.0"
     },
     "autoload": {
         "psr-4": {
-            "OtherSolution\\Klix\\": "src"
+            "OtherSolution\\Klix\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OtherSolution\\Klix\\Tests\\": "tests"
+            "OtherSolution\\Klix\\Tests\\": "tests/"
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "8.0"
+        }
     },
     "extra": {
         "branch-alias": {
