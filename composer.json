@@ -39,7 +39,7 @@
         "symfony/http-client": "^5.4|^6.0",
         "symfony/http-client-contracts": "*",
         "symfony/http-foundation": "^5.4|^6.0",
-        "symfony/http-kernel": "^5.4|^6.0",
+        "symfony/http-kernel": "^5.4|^6.0"
     },
     "require-dev": {
         "doctrine/annotations": "^1.13",
